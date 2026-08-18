@@ -1,0 +1,30 @@
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0; 
+  z-index: 1000;
+
+  /* Ingen mørk bakgrunn */
+  background: transparent;
+}
+  
+.popup-content {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
