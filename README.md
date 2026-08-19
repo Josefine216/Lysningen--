@@ -1,0 +1,1 @@
+This is an idea for my portfolio-website. I want it to feel kinda like a game as well as be easy to use.
